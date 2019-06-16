@@ -2,7 +2,8 @@
 
 /* Table background color (optional) */
 .tables1 {  }
-.tables1 th { color: #FFB017 !important; }
+.tables1 td { border: 1px solid #555555 !important; }
+.tables1 th { color: #FFB017 !important;border: 1px solid #555555 !important;padding-top: 4px !important; }
 .tables1 img { vertical-align: middle; }
 .tables1 i.fa-fw { cursor: pointer; }
 h3.forabg { color: #FFB017; }
@@ -22,9 +23,3 @@ h3.forabg { color: #FFB017; }
 .textleft { text-align: left; }
 .textcenter { text-align: center; }
 .textright { text-align: right; }
-
-/* Classes for cell borders */
-.btrbl { border-top: 1px solid #006BAB;border-right: 1px solid #006BAB;border-bottom: 1px solid #006BAB;border-left: 1px solid #006BAB; }
-.btrb { border-top: 1px solid #006BAB;border-right: 1px solid #006BAB;border-bottom: 1px solid #006BAB; }
-.brbl { border-right: 1px solid #006BAB;border-bottom: 1px solid #006BAB;border-left: 1px solid #006BAB; }
-.brb { border-right: 1px solid #006BAB;border-bottom: 1px solid #006BAB; }
